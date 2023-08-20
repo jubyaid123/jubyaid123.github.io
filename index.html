@@ -4,47 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
+    <title>Your Name - Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="container">
+                <h1>Your Name</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-
-    <section id="home">
-        <div class="content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>This is the home section where you can showcase your skills and achievements.</p>
-        </div>
-    </section>
-
+    
     <section id="about">
-        <div class="content">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself and your background.</p>
+            <p>Write a short introduction about yourself here.</p>
         </div>
     </section>
-
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1 Title</h3>
+                <p>Description of the project.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2 Title</h3>
+                <p>Description of the project.</p>
+            </div>
+            <!-- Add more project divs as needed -->
+        </div>
+    </section>
+    
     <section id="contact">
-        <div class="content">
+        <div class="container">
             <h2>Contact Me</h2>
-            <p>You can reach out to me through the following methods:</p>
-            <ul>
-                <li>Email: your.email@example.com</li>
-                <li>Phone: (123) 456-7890</li>
-            </ul>
+            <p>You can reach me at your@email.com</p>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
 </body>
 </html>
 
