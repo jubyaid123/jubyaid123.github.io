@@ -15,6 +15,9 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+header .container h1{
+    display: inline;
+}
 
 header !important{ 
     height: 100px;
