@@ -14,10 +14,9 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
+    border
 }
-header .container h1{
-    display: inline;
-}
+
 
 header !important{ 
     height: 100px;
@@ -28,10 +27,6 @@ header !important{
     color: #fff;
     text-align: center;
      
-}
-
-nav ul {
-    list-style: none;
 }
 
 nav ul li {
@@ -65,6 +60,10 @@ section {
 
 .project h3 {
     margin-top: 10px;
+}
+
+.experience h4{
+    margin-top 10px;
 }
 
 /* Add more custom styles as desired */
