@@ -16,7 +16,7 @@ body {
     padding: 20px;
 }
 
-header {
+header !important {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 18px;
     letter-spacing: 0.8px;
