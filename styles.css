@@ -17,6 +17,16 @@ body {
 }
 
 header {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    word-spacing: -1px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
     background-color: #333;
     color: #fff;
     text-align: center;
